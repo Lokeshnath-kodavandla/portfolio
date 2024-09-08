@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/another.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/about-section.css">
+    <link rel="shortcut icon" href="images/fav.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-items">ONLINE PORTFOLIO</div>
+            <div class="nav-items" id="hideonmobile"><a href="#about">ABOUT</a></div>
+            <div class="nav-items" id="hideonmobile"><a href="#education">EDUCATION</a></div>
+            <div class="nav-items" id="hideonmobile"><a href="#projects">PROJECTS</a></div>
+            <div class="nav-items" id="hideonmobile"><a href="download cv/LOKESHNATH-KODAVANDLA.pdf" download="LOKESHNATH-KODAVANDLA">DOWNLOAD CV</a></div>
+            <div class="nav-items" id="hideonmobile"><a href="#contact">CONTACT ME</a></div>
+            <div class="nav-menu" id="menu-btn" onclick="showsidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></div>
+
+        </div>
+        <div class="side-bar">
+          <div class="nav-itemss" onclick="closesidebar()"><svg  xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed" class="animation"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></div>
+          <div class="nav-itemss">ONLINE PORTFOLIO</div>
+          <div class="nav-itemss"><a href="#about">ABOUT</a></div>
+          <div class="nav-itemss"><a href="#education">EDUCATION</a></div>
+          <div class="nav-itemss"><a href="#projects">PROJECTS</a></div>
+          <div class="nav-itemss"><a href="LOKESHNATH-KODAVANDLA.pdf" download="LOKESHNATH-KODAVANDLA">DOWNLOAD CV</a></div>
+          <div class="nav-itemss"><a href="#contact">CONTACT ME</a></div>
+      </div>
+    </header>
+    <main>
+        <div class="left-main">
+          <h1>Hi,I'm <span class="name">Lokesh nath</span></h1>  
+          <p class="first-paragraph">
+            A passionate <span class="highlight">Full Stack Developer</span>
+            in making. I am on a journey to transform ideas into reality through code.
+            Whether it's front-end magic or back-end logic, I'am driven by the challenge to create seamless digital experience.
+          </p>
+          <br>
+          <p class="second-paragraph">
+            Let's build something amazing together!
+          </p>
+
+        </div>
+        <div class="right-main">
+            <img class="profile-image" src="images/Lokeshnath-portfolio-pic.png" alt="profile">  
+        </div>
+        
+    </main>
+   <!--  <div class="scrollingskills">
+      <center><h1 class="myskillsheading">SKILLS</h1></center>
+      <img src="WhatsApp_Image_2024-08-30_at_6.06.30_PM-removebg-preview.png" alt="image" class="traintrack">
+      <marquee behavior="" direction="left" class="marquee">
+        <div class="scrollitems" id="Firstelement">⚫WEB-DEVELOPMENT</div>
+        <div class="scrollitems">⚫PYTHON</div>
+        <div class="scrollitems">⚫DSA</div>
+        <div class="scrollitems">⚫sql</div>
+        <div class="scrollitems">⚫java</div>
+      </marquee>
+    </div> -->
+  <div class="container-skillbox">
+    <div class="skill-box">
+      <div class="skill">
+          <div class="icon">🌐</div>
+          <div class="label">Web Development</div>
+      </div>
+      <div class="skill">
+          <div class="icon">🐍</div>
+          <div class="label">Python</div>
+      </div>
+      <div class="skill">
+          <div class="icon">☕</div>
+          <div class="label">Java</div>
+      </div>
+      <div class="skill">
+          <div class="icon">🔗</div>
+          <div class="label">SQL</div>
+      </div>
+      <div class="skill">
+          <div class="icon">📊</div>
+          <div class="label">DSA</div>
+      </div>
+    </div>
+  </div>
+  <section id="about" class="about-section">
+    <div class="container001">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-video">
+              <video autoplay loop muted src="videos/myvideo.mp4"></video>
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm <strong>Lokeshnath Kodavandla</strong>, a passionate Full Stack Developer with a flair for creating innovative and efficient web solutions. My journey in technology started with a solid grounding in Computer Science, Mathematics, and Physics, which has equipped me with the analytical prowess to tackle complex challenges.</p>
+                <p>I've had the privilege of working on various projects, including developing a feature-rich website for my college, where I leveraged my skills in HTML, CSS, JavaScript, and modern frameworks. This experience has honed my ability to build responsive, user-centric applications that stand out in the digital space.</p>
+                <p>My goal is to continually enhance my expertise and become a versatile Full Stack Developer. I am dedicated to delivering high-quality work and thrive on collaborating with teams to bring innovative ideas to life. Additionally, I am an avid learner, committed to staying current with the latest technologies and industry trends.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- <div class="division-p" id="about"> 
+        <div class="verticalline"></div>
+        <div class="circle01"></div>
+        <div class="circle02"></div>
+        <div class="circle03"></div>
+        <div class="about-line" onmouseover="headglow()" onmouseout="offheadglow()">ABOUT ME</div>
+        <div class="paragraph-lines01" onmouseover="glowing()" onmouseout="offglowing()">
+          <p class="wrap">
+            Hello! I'm Lokeshnath Kodavandla, an aspiring Full Stack Developer with a passion for crafting efficient, user-friendly web applications. My journey in the world of coding began with a strong foundation in Computer Science, Mathematics, and Physics, <br>which has equipped me with the analytical skills necessary to solve complex problems.I have hands-on experience working on various projects, including creating a website for my college, <br>where I applied my knowledge of HTML, CSS, JavaScript, and other modern web technologies.
+          </p>
+  
+        </div>
+        <div class="paragraph-lines02" onmouseover="glow01()" onmouseout="offglow01()">
+          <p class="wrap">
+            My goal is to continuously improve my skills and eventually become a proficient Full Stack Developer, capable of taking on challenging projects from start to finish. <br>In addition to my technical skills, I am constantly working on improving my communication skills, as I believe they are crucial in collaborating effectively with teams and presenting my ideas clearly. I'm also a keen learner,<br> always exploring new technologies and methodologies to stay up-to-date in the ever-evolving tech landscape.
+          </p>
+        </div>
+    </div> -->
+    <div class="education" id="education">
+        <div class="verticalline1"></div>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+
+        <div class="education-heading" onmouseover="headglow01()" onmouseout="offheadglow01()">EDUCATION</div>
+        <div class="collegename" id="studynames" onmouseover="glow02()" onmouseout="offglow02()">
+            <p id="blockcontent">
+              Sr&bgnr Arts and Science college <br>(2021-2024)
+            </p>
+        </div>
+        <div class="inter" id="studynames" onmouseover="glow03()" onmouseout="offglow03()">
+          <p id="blockcontent">MJPTBCWRIES BOYS - <br> KAMMALAPUR (2019-2021)</p>
+        </div>
+        <div class="schoolname" id="studynames" onmouseover="glow04()" onmouseout="offglow04()">
+          <p id="blockcontent">
+            Nirmala high school (2018-2019)
+          </p>
+        </div>
+        <!-- <div class="imageforbg">
+          <img class="bgimage" src="images/6da51eed-8495-48bb-a009-65635d46d7d7.png" alt="image">
+        </div> -->
+    </div>
+    <section id="projects" class="projects-section">
+      <h1>Projects</h1>
+      <div class="projects-container">
+          <div class="project-card" data-aos="fade-up">
+              <img src="images/image_search_1725426612589.jpg" alt="">
+              <div class="project-info">
+                  <h2>Youtube Clone</h2>
+                  <p>I created clone of youtube same looks like youtube</p>
+              </div>
+          </div>
+          <div class="project-card" data-aos="fade-up">
+               <img src="images/image_search_1725426782574.png" alt="">
+              <div class="project-info">
+                  <h2>Amazon Clone</h2>
+              </div>
+          </div>
+          <div class="project-card" data-aos="fade-up">
+              <!-- <img src="project3.jpg" alt="Project 3"> -->
+              <div class="project-info">
+                  <h2>On Going</h2>
+                  <p>Curently I am working on different real world projects in future i will give update.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+    <div class="contact-me" id="contact">
+      <h1 class="information">
+        Contact information: 
+      </h1>
+      <div class="left-balloon" id="balloons" >
+        <a id="gap" href="mailto:kodavandlalokeshnath@gmail.com"><img src="images/image_search_1724640872327 (1).png" alt="" class="icons"></a>
+        
+      </div>
+      <div class="left-balloon02" id="balloons">
+        <a id="gap" href="tel:+919059568329" target="_blank"><img src="images/image_search_1724641070066.png" alt="" class="icons"></a>
+         
+      </div>
+      <div class="right-balloon" id="balloons">
+        <a id="gap" href="https://www.linkedin.com/in/lokeshnath-kodavandla/" target="_blank"><img src="images/image_search_1724640935360.png" alt="" class="icons"></a>
+       
+      </div>
+      <div class="right-balloon02" id="balloons">
+        <a id="gap" href="https://github.com/Lokeshnath-kodavandla" target="_blank"><img src="images/image_search_1724640967785.png" alt="" class="icons"></a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
